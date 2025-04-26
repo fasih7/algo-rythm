@@ -10,6 +10,8 @@ import Pricing from "@/components/Pricing";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
 import { Metadata } from "next";
+import ProfileCards from "@/components/ProfileCard";
+import TeamCards from "../components/Team/TeamCards";
 
 export const metadata: Metadata = {
   title: "AlgoRythm technologies limited",
@@ -27,8 +29,10 @@ export default function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      {/* <Testimonials />
-      <Pricing />
+      <TeamCards />
+      <Testimonials />
+      {/* <ProfileCards /> */}
+      {/* <Pricing />
       <Blog /> */}
       <Contact />
     </>
